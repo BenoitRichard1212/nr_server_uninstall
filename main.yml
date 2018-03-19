@@ -4,5 +4,5 @@
   tasks:
   - name: Remove agent w/ apt module.
     apt:
-      name: newrelic-sysmond
+      name: newrelic-infra
       state: absent
